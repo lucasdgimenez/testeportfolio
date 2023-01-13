@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <title>Lucas Dias - Web Dev</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="src/fullclip.js"></script>
+</head>
+<body>
+    <section class="fullBackground">
+      <h2 class="titulo_main">Lucas Dias</h2>
+      <h3 class="sub_titulo">Front End</h3>
+      <nav class="menu_main">
+        <ul class="first">
+          <li><a href="#conhec">Skills</a></li>
+          <li><a href="#port">Portfolio</a></li>
+          <li><a href="#contact">Contato</a></li>
+        
+        </ul>
+        <ul class="second">
+            <li><a href="https://www.linkedin.com/in/lucasdgimenez/" target="_blanket">Linkedin</a></li>
+            <li><a href="https://github.com/lucasdgimenez" target="_blanket">GitHub</a></li>
+        </ul>
+      </nav>
+      
+        
+    </section>
+
+  <section class="skills" id="conhec">
+    <div class="container">
+      <h1 class="titulo_section dark">Skills</h1>
+    <div class="preco ">
+      
+      
+      <div class="preco-item">
+        <h2>Framework</h2>
+        <span>Para facilitar o desenvolvimento em CSS e JS</span>
+        <ul>
+          <li>Vue Js</li>
+          <li>Bootstrap</li>
+        </ul>
+      </div>
+
+      <div class="preco-item">
+        <h2>A base da web</h2>
+        <span>Estruturar, estilizar e modelar o sistema ou website</span>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Java Script</li>
+        </ul>
+      </div>
+      
+      <div class="preco-item">
+        <h2>Versionamento</h2>
+        <span>Pronto para trabalhar em equipe com as melhores ferramentas do mercado</span>
+        <ul>
+          <li>GIT</li>
+          <li>GitHub</li>
+  
+        </ul>
+      </div>
+    </div>
+    </div>
+    
+    
+  </section>
+
+  <section class="portfolio" id="port">
+    <div class="container">
+      <h1 class="titulo_section">Portfolio</h1>
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="images/youtubeflix.PNG" style="width:100%">
+          <h3 class="titulo_portfolio">YoutubeFlix</h3>
+          <p class="text">Uma interface inspirada na netflix e no amazon prime construida com VueJs, CSS puro e um arquivo JSON armazenando os dados de cada conteúdo da página</p>
+          <a href="https://github.com/lucasdgimenez/youtubeflix" target="_blank">Link</a>
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="images/listatarefas.PNG" style="width:100%">
+          <h3 class="titulo_portfolio">Lista de tarefas</h3>
+          <p class="text">Sistema feito com Bootstrap, VueJs, um pacote de icones do fontawesome e com o firebase rodando o back-end</p>
+          <a href="https://github.com/lucasdgimenez/listatarefas1" target="_blank">Link</a>
+        </div>
+        
+        
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+        </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h1 class="titulo_section dark">Contato</h1>
+      <p style="text-align: center">Entre em contato nas opções abaixo</p>
+     <ul class="contato">
+       <li><img src="images/download.png" alt=""><a href="https://wa.me/5511985974862">Whatsapp</a> </li>
+       <li><img src="images/174857.png" alt=""><a href="https://www.linkedin.com/in/lucasdgimenez/" target="_blanket">Linkedin</a> </li>
+       <li><img src="images/GitHub.svg" alt=""><a href="https://www.github.com/lucasdgimenez/" target="_blanket">Github</a> </li>
+     </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://wa.me/5511985974862" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+<i style="margin-top:16px" class="fa fa-whatsapp"></i>
+</a>
+    <div class="container">
+      Feito por: <a href="https://www.github.com/lucasdgimenez/" target="_blanket">Lucas Dias</a>
+    </div>
+  </footer>
+
+  <script src="src/script.js"></script>
+</body>
+</html>
